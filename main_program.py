@@ -5,7 +5,19 @@ show_exit_message
 
 
 def get_user_info():
-  pass
+  while True:
+        name = input("Enter your name: ").strip()
+        if validate_input(name):
+            break
+        print("Invalid name! Please try again.")
+    
+    while True:
+        age = input("Enter your age: ").strip()
+        if validate_input(age) and age.isdigit():
+            break
+        print("Invalid age! Please enter a number.")
+    
+    return name, age
 
 
 if __name__ == "__main__":
