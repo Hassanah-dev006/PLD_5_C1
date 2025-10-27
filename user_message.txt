@@ -1,0 +1,3 @@
+Hello Hassana, you are 19 years old!
+Name in binary: 01001000 01100001 01110011 01110011 01100001 01101110 01100001
+Age in binary: 0b10011
