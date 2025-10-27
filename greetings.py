@@ -6,5 +6,5 @@ def show_intro():
     print("==================================")
 
 def show_exit_message():
-    print("Thank you for using our program. Goodbye!")
+    print("Thank you for using the program. Goodbye!")
 
